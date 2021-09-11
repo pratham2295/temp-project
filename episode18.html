@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Example for Episode 18 - CSS Forms</title>
+  </head>
+  <style>
+    input[type="text"] {
+      width: 60%;
+      font-size: 20px;
+      color: white;
+      padding: 15px;
+      margin: 15px;
+      background-color: lightskyblue;
+      border: 1px solid black;
+    }
+    input[type="text"]::placeholder {
+      color: black;
+      opacity: 0.5;
+    }
+    input[type="submit"] {
+      color: black;
+      border-radius: 15px;
+      background-color: yellow ;
+      width: 15%;
+      font-size: 40px;
+      padding: 2px;
+      margin: 2px;
+    }
+    input[type="text"]:focus {
+      background-color: lightgreen;
+      border: 1px solid black;
+    }
+    .submitcontainer {
+      padding-left: 290px;
+    }
+  </style>
+  <body>
+    <input type="text" placeholder="Enter Firstname" />
+    <input type="text" placeholder="Enter Lastname" />
+    <br />
+    <div class="submitcontainer"><input type="submit" /></div>
+  </body>
+</html>
