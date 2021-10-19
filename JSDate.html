@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Example for JS Date</title>
+  </head>
+
+  <body>
+    <div id="demo"></div>
+  </body>
+
+  <script>
+    var d = new Date();
+    
+    var date = d.getDate();
+    var month = d.getMonth() + 1;
+    var year = d.getFullYear();
+
+    document.getElementById("demo").innerHTML =
+      "Today's Date is : " + date + "/" + month + "/" + year;
+  </script>
+</html>

@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Example of JS Control structures - For Loop</title>
+  </head>
+
+  <body>
+    <div id="demo"></div>
+
+    <div id="demo2"></div>
+  </body>
+
+  <script>
+    var fruits = ["Apple", "Banana", "Mango"];
+    fruits.forEach(myFunction);
+    function myFunction(item, index) {
+      document.getElementById("demo").innerHTML += item + "<br />";
+    }
+
+    var countries = ["India", "Japan", "USA"];
+    countries.forEach(function2);
+    function function2(item, index) {
+      document.getElementById("demo2").innerHTML += item + "<br />";
+    }
+  </script>
+</html>

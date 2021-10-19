@@ -1,0 +1,6 @@
+Learn more about "Web Accessibility" from following links 
+1) https://developer.mozilla.org/en-US/docs/Web/Accessibility
+2) https://webaim.org/intro/
+Learn more about "Responsive web design" from following links 
+1) Bootstarp : https://www.w3schools.com/bootstrap4/default.asp
+2) CSS Media Queries : https://www.w3schools.com/css/css_rwd_mediaqueries.asp
